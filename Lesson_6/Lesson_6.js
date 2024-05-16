@@ -188,7 +188,6 @@ console.log(diamonds);
 let highClubs = cards.filter(card => card.cardSuit === 'clubs' && values.indexOf(card.value) >= 3);
 console.log(highClubs);
 // =========================
-//
 //     Взяти описану колоду карт, та за допомоги reduce упакувати всі карти по "мастях" в об'єкт
 // {
 //     spades:[],
